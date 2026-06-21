@@ -2,14 +2,14 @@
 
 ### 👤 Identitas
 
-### **Nama:** Aneka Lisda
-### **NIM:** 25141013P
-### **Kelas:** SI2KR
-### **Mata Kuliah:** Pemrograman Berorientasi Objek (OOP)
+#### **Nama:** Aneka Lisda
+#### **NIM:** 25141013P
+#### **Kelas:** SI2KR
+#### **Mata Kuliah:** Pemrograman Berorientasi Objek (OOP)
 
 ---
 
-## 📖 Deskripsi Program
+### 📖 Deskripsi Program
 
 Program ini merupakan simulasi **Sistem Pemesanan Tiket Bioskop** yang dibuat menggunakan bahasa pemrograman **Dart** dengan menerapkan konsep **Object Oriented Programming (OOP)**.
 
@@ -24,7 +24,7 @@ Sistem memungkinkan pengguna untuk:
 
 ---
 
-## 🎯 Tujuan Program
+### 🎯 Tujuan Program
 
 1. Memahami penerapan konsep OOP menggunakan Dart.
 2. Mengimplementasikan class dan object.
