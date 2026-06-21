@@ -1,4 +1,4 @@
-## 🎬 ## 🎬 Aplikasi Console Sistem Pemesanan Tiket Bioskop Menggunakan Dart OOP
+## 🎬 Aplikasi Console Sistem Pemesanan Tiket Bioskop Menggunakan Dart OOP
 
 ### 👤 Identitas
 
@@ -69,8 +69,6 @@ Digunakan untuk menyimpan data pelanggan.
 **Method:**
 
 * tampilkanPelanggan()
-#### Output
-
 
 ---
 
@@ -130,7 +128,7 @@ Digunakan untuk menyimpan data pembayaran.
 ---
 
 ## 🔄 Relasi Antar Class
-
+```text
 +-----------+
 | Pelanggan |
 +-----------+
@@ -146,7 +144,7 @@ Film     Kursi
   |
   v
 Pembayaran
-
+```
 ---
 
 ## 💡 Konsep OOP yang Digunakan
@@ -229,7 +227,17 @@ Kursi kursi;
 [Klik di sini untuk menjalankan kode DartPad](https://dartpad.dev/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
 
 ---
+## ▶️ Cara Menjalankan Program
 
+1. Buka DartPad melalui https://dartpad.dev
+2. Salin source code program.
+3. Tempelkan pada editor DartPad.
+4. Klik tombol **Run**.
+5. Hasil program akan tampil pada panel output.
+
+## 🔗 Link Program
+
+[Klik di sini untuk menjalankan kode DartPad](https://dartpad.dev/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
 
 ## 📋 Contoh Output
 
