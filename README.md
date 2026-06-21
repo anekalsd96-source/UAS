@@ -5,7 +5,7 @@
 #### **Nama:** Aneka Lisda
 #### **NIM:** 25141013P
 #### **Kelas:** SI2KR
-#### **Mata Kuliah:** Pemrograman Berorientasi Objek (OOP)
+#### **Mata Kuliah:** Pemrograman Berorientasi Objek 
 
 ---
 
