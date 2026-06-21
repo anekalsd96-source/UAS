@@ -281,7 +281,9 @@ Terima kasih telah menggunakan layanan bioskop.
 ```
 ## 📸 Screenshot Output
 
-![Output Program](output.png)
+<img width="959" height="550" alt="image" src="https://github.com/user-attachments/assets/a739d3b8-982a-45c9-bfbc-71fe8078e111" />
+
+
 
 ---
 
