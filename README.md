@@ -282,14 +282,8 @@ Terima kasih telah menggunakan layanan bioskop.
 ## 📸 Screenshot Output
 
 <img width="959" height="550" alt="image" src="https://github.com/user-attachments/assets/a739d3b8-982a-45c9-bfbc-71fe8078e111" />
+<img width="956" height="592" alt="image" src="https://github.com/user-attachments/assets/3d6d089f-3cba-4f05-bf1e-e3dfe68a023b" />
 
-
-
----
-
-## ✅ Kesimpulan
-
-Program Sistem Pemesanan Tiket Bioskop berhasil dibuat menggunakan bahasa Dart dengan menerapkan konsep Object Oriented Programming (OOP).
 ---
 
 ## ✅ Kesimpulan
