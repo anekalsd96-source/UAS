@@ -217,15 +217,15 @@ Contoh:
 Pelanggan pelanggan;
 Film film;
 Kursi kursi;
-```
 
 
+
 ```
-```
+
 [Klik di sini untuk menjalankan kode DartPad](https://dartpad.dev/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
 
 ---
-```
+
 
 ## 📋 Contoh Output
 
