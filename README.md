@@ -1,4 +1,4 @@
-## 🎬 Aplikasi Sistem Pemesanan Tiket Bioskop Berbasis Web Menggunakan Object Oriented Programming (Dart OOP)
+## 🎬 ## 🎬 Aplikasi Console Sistem Pemesanan Tiket Bioskop Menggunakan Dart OOP
 
 ### 👤 Identitas
 
@@ -131,18 +131,20 @@ Digunakan untuk menyimpan data pembayaran.
 
 ## 🔄 Relasi Antar Class
 
-Film
-↓
-Pesanan
-↑
-Pelanggan
-
-Pesanan
-↓
-Kursi
-
-Pesanan
-↓
++-----------+
+| Pelanggan |
++-----------+
+      |
+      |
+      v
++-----------+
+|  Pesanan  |
++-----------+
+   /      \
+  v        v
+Film     Kursi
+  |
+  v
 Pembayaran
 
 ---
