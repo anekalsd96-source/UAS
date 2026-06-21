@@ -1,7 +1,7 @@
-# 🎬 Aplikasi Sistem Pemesanan Tiket Bioskop Berbasis Web Menggunakan Object Oriented Programming (Dart OOP)
+## 🎬 Aplikasi Sistem Pemesanan Tiket Bioskop Berbasis Web Menggunakan Object Oriented Programming (Dart OOP)
 
-## 👤 Identitas
-w
+### 👤 Identitas
+
 ### **Nama:** Aneka Lisda
 ### **NIM:** 25141013P
 ### **Kelas:** SI2KR
