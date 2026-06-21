@@ -219,8 +219,9 @@ Contoh:
 Pelanggan pelanggan;
 Film film;
 Kursi kursi;
-
 ```
+
+Class Pesanan memiliki hubungan dengan class Pelanggan, Film, dan Kursi karena objek-objek tersebut digunakan dalam proses pemesanan tiket.
 ---
 ## ▶️ Cara Menjalankan Program
 
