@@ -100,12 +100,12 @@ void main() {
 ```
 ### Output :
 <img width="959" height="464" alt="image" src="https://github.com/user-attachments/assets/20d9dbd8-da9d-41ec-bfef-965421c8b886" />
-
+---
 
 ### Penjelasan
 
 Class **Film** digunakan untuk menyimpan seluruh informasi mengenai film yang tersedia di bioskop. Class ini memiliki atribut seperti ID film, judul, genre, studio, tanggal tayang, jadwal, dan harga tiket. Constructor digunakan untuk menginisialisasi data film saat objek dibuat, sedangkan method **tampilkanFilm()** berfungsi menampilkan seluruh informasi film ke layar.
----
+
 
 ### 2. Class Pelanggan
 
