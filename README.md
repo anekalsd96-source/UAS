@@ -235,10 +235,8 @@ Class Pesanan memiliki hubungan dengan class Pelanggan, Film, dan Kursi karena o
 
 [Klik di sini untuk menjalankan kode DartPad](https://dartpad.dev/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
 
-## 🔗 Gist Program Dart
-### Link Gist:
-[Klik di sini untuk menjalankan kode Gist](https://dartpad.dev/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
-
+## 🔗 Link Gist
+[Klik di sini untuk menjalankan kode Gist](https://gist.github.com/anekalsd96-source/a6ad0d3de2cefbea2e4c2fe3d5e4e35b)
 
 
 ## 📋 Contoh Output
