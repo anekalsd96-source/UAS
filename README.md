@@ -101,6 +101,10 @@ void main() {
 ### Output :
 <img width="959" height="464" alt="image" src="https://github.com/user-attachments/assets/20d9dbd8-da9d-41ec-bfef-965421c8b886" />
 
+
+### Penjelasan
+
+Class **Film** digunakan untuk menyimpan seluruh informasi mengenai film yang tersedia di bioskop. Class ini memiliki atribut seperti ID film, judul, genre, studio, tanggal tayang, jadwal, dan harga tiket. Constructor digunakan untuk menginisialisasi data film saat objek dibuat, sedangkan method **tampilkanFilm()** berfungsi menampilkan seluruh informasi film ke layar.
 ---
 
 ### 2. Class Pelanggan
@@ -140,6 +144,9 @@ void main() {
 ### Output :
 <img width="959" height="466" alt="image" src="https://github.com/user-attachments/assets/e2ac7de3-f948-4bb3-83c8-deecaa8afb87" />
 
+### Penjelasan
+
+Class **Pelanggan** digunakan untuk menyimpan data pelanggan yang melakukan pemesanan tiket. Atribut yang dimiliki adalah **idPelanggan** dan **nama**. Constructor digunakan untuk mengisi data pelanggan ketika objek dibuat, sedangkan method **tampilkanPelanggan()** berfungsi menampilkan informasi pelanggan.
 
 ### 3. Class Kursi
 
@@ -193,6 +200,10 @@ void main() {
 ### Output :
 <img width="959" height="468" alt="image" src="https://github.com/user-attachments/assets/a89d73eb-835b-4ce9-8369-69cc7c7113bd" />
 
+
+### Penjelasan
+
+Class **Kursi** digunakan untuk mengelola data kursi bioskop. Atribut **nomorKursi** menyimpan nomor kursi, sedangkan atribut **tersedia** bertipe boolean untuk menunjukkan apakah kursi masih tersedia atau sudah terisi. Method **tampilkanStatus()** menampilkan status kursi, sedangkan **pilihKursi()** digunakan untuk mengubah status kursi menjadi terisi ketika dipilih oleh pelanggan.
 ---
 
 ### 4. Class Pesanan
@@ -308,6 +319,9 @@ void main() {
 ### Output :
 <img width="940" height="476" alt="image" src="https://github.com/user-attachments/assets/a8ebad00-9ad9-4002-9757-f638fc628fe2" />
 
+### Penjelasan
+
+Class **Pesanan** merupakan class utama yang menghubungkan class **Film**, **Pelanggan**, dan **Kursi**. Class ini menyimpan seluruh informasi transaksi seperti ID pesanan, kode booking, tanggal pemesanan, data pelanggan, film yang dipilih, kursi yang dipilih, jumlah tiket, total harga, dan status pesanan. Method **tampilkanPesanan()** berfungsi menampilkan seluruh detail transaksi yang telah dibuat.
 ---
 
 ### 5. Class Pembayaran
@@ -361,7 +375,9 @@ void main() {
 ### Output :
 <img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/1e512efe-4c7c-4660-b380-01f3b72aae63" />
 
+### Penjelasan
 
+Class **Pembayaran** digunakan untuk menyimpan informasi pembayaran tiket. Class ini memiliki atribut **idBayar**, **metode**, **totalBayar**, dan **status**. Method **tampilkanPembayaran()** berfungsi menampilkan informasi pembayaran yang telah dilakukan oleh pelanggan, seperti metode pembayaran, total yang dibayar, dan status pembayaran.
 ---
 
 ## 🔄 Relasi Antar Class
