@@ -52,9 +52,52 @@ Digunakan untuk menyimpan informasi film.
 * hargaTiket
 
 **Method:**
+```dart
+class Film {
+  String idFilm;
+  String judul;
+  String genre;
+  String studio;
+  String tanggal;
+  String jadwal;
+  int hargaTiket;
 
-* tampilkanFilm()
+  Film(
+    this.idFilm,
+    this.judul,
+    this.genre,
+    this.studio,
+    this.tanggal,
+    this.jadwal,
+    this.hargaTiket,
+  );
 
+  void tampilkanFilm() {
+    print("===== DATA FILM =====");
+    print("ID Film     : $idFilm");
+    print("Judul       : $judul");
+    print("Genre       : $genre");
+    print("Studio      : $studio");
+    print("Tanggal     : $tanggal");
+    print("Jadwal      : $jadwal");
+    print("Harga Tiket : Rp$hargaTiket");
+  }
+}
+
+void main() {
+  Film film1 = Film(
+    "F001",
+    "Avengers Endgame",
+    "Action",
+    "Studio 1",
+    "20 Juni 2026",
+    "19.00 WIB",
+    50000,
+  );
+
+  film1.tampilkanFilm();
+}
+```
 ---
 
 ### 2. Class Pelanggan
