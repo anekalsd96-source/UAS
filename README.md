@@ -139,7 +139,7 @@ void main() {
 ```
 ### Output :
 <img width="959" height="466" alt="image" src="https://github.com/user-attachments/assets/e2ac7de3-f948-4bb3-83c8-deecaa8afb87" />
----
+
 
 ### 3. Class Kursi
 
