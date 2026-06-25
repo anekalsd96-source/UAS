@@ -114,7 +114,29 @@ Digunakan untuk menyimpan data pelanggan.
 
 **Method:**
 
-* tampilkanPelanggan()
+```dart
+class Pelanggan {
+  String idPelanggan;
+  String nama;
+
+  Pelanggan(this.idPelanggan, this.nama);
+
+  void tampilkanPelanggan() {
+    print("===== DATA PELANGGAN =====");
+    print("ID Pelanggan : $idPelanggan");
+    print("Nama         : $nama");
+  }
+}
+
+void main() {
+  Pelanggan pelanggan1 = Pelanggan(
+    "P001",
+    "Aneka Lisda",
+  );
+
+  pelanggan1.tampilkanPelanggan();
+}
+
 
 ---
 
@@ -131,6 +153,9 @@ Digunakan untuk mengelola status kursi bioskop.
 
 * tampilkanStatus()
 * pilihKursi()
+```
+### Output :
+<img width="959" height="466" alt="image" src="https://github.com/user-attachments/assets/e2ac7de3-f948-4bb3-83c8-deecaa8afb87" />
 
 ---
 
