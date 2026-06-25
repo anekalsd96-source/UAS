@@ -214,39 +214,96 @@ Digunakan untuk menyimpan data pemesanan tiket.
 **Method:**
 
 ```dart
+class Film {
+  String idFilm;
+  String judul;
+  String studio;
+  int hargaTiket;
+
+  Film(this.idFilm, this.judul, this.studio, this.hargaTiket);
+}
+
+class Pelanggan {
+  String idPelanggan;
+  String nama;
+
+  Pelanggan(this.idPelanggan, this.nama);
+}
+
 class Kursi {
   String nomorKursi;
   bool tersedia;
 
   Kursi(this.nomorKursi, this.tersedia);
+}
 
-  void tampilkanStatus() {
-    print("Kursi $nomorKursi : ${tersedia ? "Tersedia" : "Terisi"}");
-  }
+class Pesanan {
+  String idPesanan;
+  String kodeBooking;
+  String tanggalPesan;
+  Pelanggan pelanggan;
+  Film film;
+  Kursi kursi;
+  int jumlahTiket;
+  int totalHarga;
+  String statusPesanan;
 
-  void pilihKursi() {
-    if (tersedia) {
-      tersedia = false;
-      print("\nKursi $nomorKursi berhasil dipilih.");
-    } else {
-      print("\nMaaf, kursi $nomorKursi sudah terisi.");
-    }
+  Pesanan(
+    this.idPesanan,
+    this.kodeBooking,
+    this.tanggalPesan,
+    this.pelanggan,
+    this.film,
+    this.kursi,
+    this.jumlahTiket,
+  )   : totalHarga = film.hargaTiket * jumlahTiket,
+        statusPesanan = "Tiket Berhasil Dipesan";
+
+  void tampilkanPesanan() {
+    print("===== DETAIL PESANAN =====");
+    print("ID Pesanan    : $idPesanan");
+    print("Kode Booking  : $kodeBooking");
+    print("Tanggal Pesan : $tanggalPesan");
+    print("Pelanggan     : ${pelanggan.nama}");
+    print("Film          : ${film.judul}");
+    print("Studio        : ${film.studio}");
+    print("Kursi         : ${kursi.nomorKursi}");
+    print("Jumlah Tiket  : $jumlahTiket");
+    print("Total Bayar   : Rp$totalHarga");
+    print("Status        : $statusPesanan");
   }
 }
 
 void main() {
-  Kursi kursi1 = Kursi("A1", true);
+  Film film = Film(
+    "F001",
+    "Avengers Endgame",
+    "Studio 1",
+    50000,
+  );
 
-  print("===== STATUS KURSI =====");
-  kursi1.tampilkanStatus();
+  Pelanggan pelanggan = Pelanggan(
+    "P001",
+    "Aneka Lisda",
+  );
 
-  print("\n===== MEMILIH KURSI =====");
-  kursi1.pilihKursi();
+  Kursi kursi = Kursi(
+    "A1",
+    true,
+  );
 
-  print("\n===== STATUS KURSI SETELAH DIPILIH =====");
-  kursi1.tampilkanStatus();
+  Pesanan pesanan = Pesanan(
+    "PS001",
+    "BK001",
+    "13 Juni 2026",
+    pelanggan,
+    film,
+    kursi,
+    1,
+  );
+
+  pesanan.tampilkanPesanan();
 }
-
 ```
 ### Output :
 <img width="940" height="476" alt="image" src="https://github.com/user-attachments/assets/a8ebad00-9ad9-4002-9757-f638fc628fe2" />
@@ -301,6 +358,10 @@ void main() {
 }
 
 ```
+### Output :
+<img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/1e512efe-4c7c-4660-b380-01f3b72aae63" />
+
+
 ---
 
 ## 🔄 Relasi Antar Class
