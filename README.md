@@ -136,8 +136,9 @@ void main() {
 
   pelanggan1.tampilkanPelanggan();
 }
-
-
+```
+### Output :
+<img width="959" height="466" alt="image" src="https://github.com/user-attachments/assets/e2ac7de3-f948-4bb3-83c8-deecaa8afb87" />
 ---
 
 ### 3. Class Kursi
@@ -153,9 +154,44 @@ Digunakan untuk mengelola status kursi bioskop.
 
 * tampilkanStatus()
 * pilihKursi()
+  
+```dart
+class Kursi {
+  String nomorKursi;
+  bool tersedia;
+
+  Kursi(this.nomorKursi, this.tersedia);
+
+  void tampilkanStatus() {
+    print("Kursi $nomorKursi : ${tersedia ? "Tersedia" : "Terisi"}");
+  }
+
+  void pilihKursi() {
+    if (tersedia) {
+      tersedia = false;
+      print("\nKursi $nomorKursi berhasil dipilih.");
+    } else {
+      print("\nMaaf, kursi $nomorKursi sudah terisi.");
+    }
+  }
+}
+
+void main() {
+  Kursi kursi1 = Kursi("A1", true);
+
+  print("===== STATUS KURSI =====");
+  kursi1.tampilkanStatus();
+
+  print("\n===== MEMILIH KURSI =====");
+  kursi1.pilihKursi();
+
+  print("\n===== STATUS KURSI SETELAH DIPILIH =====");
+  kursi1.tampilkanStatus();
+}
+  
 ```
 ### Output :
-<img width="959" height="466" alt="image" src="https://github.com/user-attachments/assets/e2ac7de3-f948-4bb3-83c8-deecaa8afb87" />
+<img width="959" height="468" alt="image" src="https://github.com/user-attachments/assets/a89d73eb-835b-4ce9-8369-69cc7c7113bd" />
 
 ---
 
@@ -177,7 +213,43 @@ Digunakan untuk menyimpan data pemesanan tiket.
 
 **Method:**
 
-* tampilkanPesanan()
+```dart
+class Kursi {
+  String nomorKursi;
+  bool tersedia;
+
+  Kursi(this.nomorKursi, this.tersedia);
+
+  void tampilkanStatus() {
+    print("Kursi $nomorKursi : ${tersedia ? "Tersedia" : "Terisi"}");
+  }
+
+  void pilihKursi() {
+    if (tersedia) {
+      tersedia = false;
+      print("\nKursi $nomorKursi berhasil dipilih.");
+    } else {
+      print("\nMaaf, kursi $nomorKursi sudah terisi.");
+    }
+  }
+}
+
+void main() {
+  Kursi kursi1 = Kursi("A1", true);
+
+  print("===== STATUS KURSI =====");
+  kursi1.tampilkanStatus();
+
+  print("\n===== MEMILIH KURSI =====");
+  kursi1.pilihKursi();
+
+  print("\n===== STATUS KURSI SETELAH DIPILIH =====");
+  kursi1.tampilkanStatus();
+}
+
+```
+### Output :
+<img width="940" height="476" alt="image" src="https://github.com/user-attachments/assets/a8ebad00-9ad9-4002-9757-f638fc628fe2" />
 
 ---
 
