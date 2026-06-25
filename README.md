@@ -329,6 +329,41 @@ Pembayaran
 
 Digunakan untuk membuat blueprint objek.
 
+```dart
+class Pembayaran {
+  String idBayar;
+  String metode;
+  int totalBayar;
+  String status;
+
+  Pembayaran(
+    this.idBayar,
+    this.metode,
+    this.totalBayar,
+    this.status,
+  );
+
+  void tampilkanPembayaran() {
+    print("===== PEMBAYARAN =====");
+    print("ID Bayar      : $idBayar");
+    print("Metode        : $metode");
+    print("Total Bayar   : Rp$totalBayar");
+    print("Status        : $status");
+  }
+}
+
+void main() {
+  Pembayaran bayar1 = Pembayaran(
+    "BY001",
+    "E-Wallet",
+    50000,
+    "Lunas",
+  );
+
+  bayar1.tampilkanPembayaran();
+}
+
+
 Contoh:
 
 ```dart
